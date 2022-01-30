@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hey_this_is_my_1st_madl_exercise" />
+
+    <Button
+        android:id="@+id/btOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="increase_the_font_size" />
+
+    <Button
+        android:id="@+id/btTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change_the_color" />
+
+    <Button
+        android:id="@+id/btThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset" />
+
+</LinearLayout>
