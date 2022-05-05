@@ -1,6 +1,6 @@
 package com.example.ex6;
 
-import androidx.appcompat.app.AppCompatActivity;
+import  androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
