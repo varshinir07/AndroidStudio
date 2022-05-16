@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40px"
+        android:layout_marginBottom="80px"
+        android:text="Alert Dialog Box"
+        android:textColor="#9C27B0"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/Uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:paddingLeft="40px"
+        android:paddingTop="20px"
+        android:text="UserName : "
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etUname"
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60px"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="30px"
+        android:textColor="#918A8A" />
+
+    <TextView
+        android:id="@+id/Pwd"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:paddingLeft="40px"
+        android:paddingTop="20px"
+        android:text="Password :"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etPwd"
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60px"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingLeft="30px"
+        android:textColor="#918A8A" />
+
+    <Button
+        android:id="@+id/btnValidate"
+        android:layout_width="600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20px"
+        android:text="Get Started"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
